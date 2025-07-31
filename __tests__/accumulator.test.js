@@ -61,7 +61,7 @@ describe("buildNArray", () => {
     expect(buildNArray(-5)).toEqual([]);
   });
   it("returns [] for 0", () => {
-    expect(buildNArray(0)).toEqual([]);
+    expect(buildNArray(0)).toEqual([]);  
   });
   it("returns [1] for 1", () => {
     expect(buildNArray(1)).toEqual([1]);
